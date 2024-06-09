@@ -3,15 +3,13 @@
     line-height: 0.5rem;
     text-transform: uppercase;
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 3px;
     font-family: owners-wide, sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 body{
-    align-items: center;
-    align-content: center;
     background-color: #D94625;
 }
 section a{
@@ -47,15 +45,27 @@ h2.nome{
 }
 
 
-
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     h2,a {
-      font-size: 16px;
+      font-size: 35px;
       line-height: 0.2rem;
     }
     div.soon h2{
-        font-size: 12px;
+        font-size: 16px;
     }
   }
 
- 
+  @media (max-width: 550px) {
+    h2,a {
+      font-size: 30px;
+      line-height: 0.2rem;
+    }
+  }
+
+  @media (max-width: 450px) {
+    h2,a {
+      font-size: 21px;
+      line-height: 0.2rem;
+    }
+  }
+
